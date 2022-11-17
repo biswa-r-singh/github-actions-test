@@ -9,7 +9,7 @@ jobs:
           pwd
           ls -la
       - name: checkout
-        uses: actions/chekcout@v1
+        uses: actions/checkout@v1
       - name: simple js action
         id: greet
         uses: actions/hello-world-javascript-action@v1
