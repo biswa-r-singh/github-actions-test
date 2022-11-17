@@ -7,9 +7,9 @@ jobs:
       - name: list files
         run: |
           pwd
-          ls -la
+          ls -ltra
       - name: checkout
-        uses: actions/checkout@v1
+        uses: actions/checkout@v3
       - name: list files
         run: |
           pwd
