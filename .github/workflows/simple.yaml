@@ -7,8 +7,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: echo a string
-        run: echco "Hello World"
+        run: ehco "Hello World"
       - name: multiline script
         run: |
           node -v
           npm -v
+          sleep 20
